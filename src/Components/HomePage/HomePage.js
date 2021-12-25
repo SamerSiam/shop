@@ -1,12 +1,14 @@
 import React from 'react';
+import './Home.css'
 
 const HomePage = (props) => {
    
 
     return (
-        <div> 
+        <div className="img"> 
            
-         HOME PAGE
+           <img src={require('./welcome.jpg')} alt="welcome" />
+      
         </div>
     )
 };

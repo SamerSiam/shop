@@ -29,5 +29,35 @@
     size: "Fits for all",
     id: 4
     },
+    {
+    title: "T-shirt",
+    imageUrl: "https://i.ibb.co/z8GM1Mh/tie.jpg",
+    price: 15,
+    size: "XL",
+    id: 5
+    },
+    {
+    title: "Cargo Pants",
+    imageUrl: "https://i.ibb.co/z8GM1Mh/tie.jpg",
+    price: 75,
+    size: "XXL",
+    id: 6
+    },
+    {
+    title: "Yoga Pants",
+    imageUrl: "https://i.ibb.co/z8GM1Mh/tie.jpg",
+    price: 55,
+    size: "M",
+    id: 7
+    },
+    {
+    title: "Flip Flops",
+    imageUrl: "https://i.ibb.co/z8GM1Mh/tie.jpg",
+    price: 12,
+    size: "45",
+    id: 8
+    },
+
+
     ];
     export default items;

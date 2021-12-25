@@ -8,7 +8,7 @@ return (
 
     <Link to="/" className="item"> Home Page</Link>
     <Link to="/products" className="item"> Products</Link>
-    <Link to="/cart" className="item"> Shopping Cart</Link>
+    <Link to="/cart" className="right item"> Shopping Cart <i class="shopping cart icon"></i></Link>
     </div>
 );
 };
