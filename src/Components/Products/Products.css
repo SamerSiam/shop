@@ -6,9 +6,11 @@
 .main-container{
    padding: 20px;
    height: 100%;
-   width: 80%;
+   width: 80vw;
    display : flex;
    justify-content: center;
+   flex-wrap: wrap;
+   
 
     
 }
@@ -51,6 +53,14 @@
 
 }
 
+.total{
+    position: absolute;
+    top: 10px;
+    right: 213px;
+    font-weight: bold;
+    color: rgb(65, 65, 196);
+}
+
 .button{
     position: relative;
     font-size: 1rem;
@@ -63,6 +73,7 @@
     border:1px solid rgb(65, 65, 196);
     cursor: pointer;
     overflow: hidden;
+    margin: 5px;
     
     
    
